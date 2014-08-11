@@ -1,0 +1,115 @@
+body {
+    font-family: 'Droid Sans', "Helvetica Neue",Helvetica,Arial;
+    background-image: url("../baby-background-light.png");
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+/*body div { border: solid 1px #CCC; }*/
+
+@media (min-width:1200px){.container {
+        width: 970px
+    }
+}
+
+
+
+
+.nav-pills>li>a {
+    border-radius: 0;
+    color: #FFF;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+h4 { font-family: 'Indie Flower'; }
+h2 { margin-top: 10px; }
+
+ul { -webkit-margin-before: 0;
+-webkit-margin-after: 0;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 0;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.no-padding-left { padding-left: 0; }
+.no-padding-right { padding-right: 0; }
+
+.header {
+    width: 100%;
+    /*background: #434954;*/
+    background: #434954;
+}
+
+.header .logo-container { background: #FFF; border-bottom: Solid 1px #F6f6f6; }
+.header .logo-container .logo { background: url("../logo-scribble.png"); height: 70px; width: 234px; }
+.header .logo-container .sub-title { margin-top: 45px; }
+.header .logo-wrapper { 
+margin-top: 10px;
+border-radius: 4px; padding-top: 10px; padding-bottom: 10px; }
+
+.subscribe-header { border: Solid 1px #f6f6f6;
+padding: 0;
+margin: 10px 0;
+border-radius: 4px; }
+
+.subscribe-header .promo-icon { display: inline-block;
+background: url("../promo-icon.png");
+width: 50px;
+height: 50px;
+background-size: 50px 50px;
+background-repeat: no-repeat;
+position: absolute;
+top: -20px;
+left: -20px;
+}
+
+.subscribe-header h5 { background: #ea2e49;
+margin-top: 0;
+padding: 10px;
+color: #FFF;
+border-top-left-radius: 4px; border-top-right-radius: 4px;  }
+.subscribe-header form { padding: 0 10px 10px; }
+.nav-container {  margin-top: 10px; margin-bottom: 10px; }
+.nav-container .nav-wrapper { /* background: #77c4d3; */ margin-left: 135px; background: #434954}
+.nav-container .nav-pills>li>a { text-decoration: none; padding: 15px 25px;}
+.nav-container li.active a, .nav-container a:hover { color: #fdd141; text-decoration: none !important;}
+
+.nav-container .logo { background: #FFF; }
+.nav-container .logo a { display: block; background: url("../logo-scribble.png");
+background-size: 117px 35px;
+width: 130px;
+height: 50px;
+background-repeat: no-repeat;
+background-position: center center; border: Solid 1px #F6F6F6; }
+.nav-container .logo a:hover { border: Solid 1px #fdd141; }
+
+
+.footer { background: #434954; height: 150px; }
+
+.promo-item { background: #FFF; height: 260px; border: Solid 1px #EFEFEF; padding: 0 10px 10px; margin-bottom: 20px;}
+.promo-item h4 { margin-bottom: 10px; }
+.promo-image { width: 100%; height: 210px; border: Solid 1px #EFEFEF; padding: 10px; text-align: center;}
+
+.article-item { background: #FFF; height: 200px; border: Solid 1px #EFEFEF; padding: 0 10px 10px; margin: 15px 0;}
+.article-item h4 { margin-bottom: 10px; }
+.article-image { width: 100%; height: 150px; border: Solid 1px #EFEFEF; padding: 10px; text-align: center;}
+
