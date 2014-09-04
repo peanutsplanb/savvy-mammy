@@ -33,13 +33,9 @@ module.exports = function(grunt) {
     },
 
     watch: {
-      gruntfile: {
-        files: '<%= jshint.gruntfile.src %>',
-        tasks: ['jshint:gruntfile']
-      },
-      lib_test: {
-        files: '<%= jshint.lib_test.src %>',
-        tasks: ['jshint:lib_test', 'nodeunit']
+      css: {
+        files: 'styles/*.scss',
+        tasks: ['compass']
       }
     },
 
@@ -71,7 +67,7 @@ module.exports = function(grunt) {
           config: 'config_release.rb'
         }
       }*/
-    },
+    }/*,
     sass: {                              // Task
       dist: {                            // Target
         options: {                       // Target options
@@ -81,7 +77,7 @@ module.exports = function(grunt) {
           'styles/sitenew.css': 'styles/SiteSass.scss'       // 'destination': 'source'
         }
       }
-    }
+    }*/
   });
 
   // These plugins provide necessary tasks.
@@ -89,7 +85,7 @@ module.exports = function(grunt) {
   //grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-compass');
-  grunt.loadNpmTasks('grunt-contrib-sass');
+  //grunt.loadNpmTasks('grunt-contrib-sass');
 
   // Default task.
   grunt.registerTask('default');
